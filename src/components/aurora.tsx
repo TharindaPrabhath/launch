@@ -21,7 +21,7 @@ export interface AuroraProps
     TimeProps,
     ControlProps,
     React.HTMLAttributes<HTMLDivElement>,
-    React.PropsWithChildren<{}> {
+    React.PropsWithChildren<any> {
   colorStops?: [string, string, string];
   amplitude?: number;
 }
